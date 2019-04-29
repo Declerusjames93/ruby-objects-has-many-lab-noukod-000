@@ -3,7 +3,7 @@ class Song
       @name = name
       @artist = artist
     end
-  
+
      def artist_name
       self.artist ? self.artist.name : nil
     end
